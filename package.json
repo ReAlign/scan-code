@@ -1,0 +1,24 @@
+{
+  "name": "scan-code",
+  "version": "0.0.1",
+  "description": "Scan code.",
+  "main": "index.js",
+  "scripts": {
+    "barcode": "serve barcode",
+    "qr-code": "serve qr-code",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReAlign/scan-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReAlign/scan-code/issues"
+  },
+  "homepage": "https://github.com/ReAlign/scan-code#readme",
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
+}
